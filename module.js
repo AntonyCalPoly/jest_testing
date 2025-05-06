@@ -15,4 +15,4 @@ function containsNumbers(text) {
   return false;
 }
 
-export default { sum, div, containsNumbers };
+module.exports = { sum, div, containsNumbers };

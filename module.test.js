@@ -1,5 +1,5 @@
 // module.test.js
-import mut from "./module.js"; // MUT = Module Under Test
+const mut = require("./module.js"); // MUT = Module Under Test
 
 //testing sum
 test("Testing sum -- success", () => {
